@@ -1,6 +1,6 @@
 This repository contains a python program that can be used to show the video output of a borescope on a PC (tested under Linux). It uses opencv and can save a frame by pressing 's' on keyboard or the snapshot button on the borescope.
 
-This program will **not** work on any borescope, it works on my specific model, and possibly on others that use the same network protocol. I wrote it manly to understand and test the protocol before writing an Android app (https://github.com/framenic/freed-borescope-view).
+This program will **not** work on all borescopes, it works on my specific model, and possibly on others that use the same network protocol. I wrote it manly to understand and test the protocol before writing an Android app (https://github.com/framenic/freed-borescope-view).
 
 <img align='center' width="500" height="650" alt="immagine" src="https://github.com/user-attachments/assets/86e2d729-4ed0-440a-8ac6-416c4da75909" />                          
 
