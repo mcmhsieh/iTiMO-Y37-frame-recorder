@@ -39,7 +39,7 @@ While these are very interesting projects, none of the network protocol describe
 My work starts; it is time to reverse the network protocol of the borescope.
 
 # Network protocol
-These are the results of the analysis of the network traffic between the smartphoen applicatio and the borescope. In the following description, the smartphone application is the **client** while the borescope is the **server**.
+These are the results of the analysis of the network traffic between the smartphone application and the borescope. In the following description, the smartphone application is the **client** while the borescope is the **server**.
 
 The server has two open UDP ports: 8030 and 50000. They can be easily found using *nmap*, but also tracing the traffic between the USB VIEW app and the boroscope.
 None of them provide data (i.e. the video stream) directly when connected, but specific commands must be sent by the client in order to get the video stream.
