@@ -7,18 +7,18 @@ This program will **not** work on all borescopes, it works on my specific model,
 
 
 # Introduction
-I bought a borescope from one the famous web marketplaces, which can be connected to a phone by USB. It doesn't have any indication of the manufacturer and it is sold as J103-OTG model (also J106-OTG and J108 OTG). I later discovered, while analyzing network packets, that the manufacturer could be Shenzen Molink Technology.
+I bought a borescope from one the famous web marketplaces that can be connected to a phone by USB. It doesn't have any indication of the manufacturer and it is sold as J103-OTG model (also J106-OTG and J108 OTG). I later discovered, while analyzing network packets, that the manufacturer could be Shenzen Molink Technology.
 
 <img width="140" height="155" alt="immagine" src="https://github.com/user-attachments/assets/546d4848-8ee6-42bb-88a6-53644ed8369b" />
 
 
-Initially i hoped it was a UVC video device, so I could use it connected to a smartphone via USB OTG and installing any app that can use a UVC camera. Instead, it can only be used with a specific app (called USB-VIEW), which gives me with serious doubts about its security and future availability. 
+Initially i hoped it was a UVC video device, so I could use it connected to a smartphone via USB OTG and installing any app that can use a UVC camera. Instead, it can only be used with a specific app (called USB-VIEW), which leaves me with serious doubts about its security and future availability. 
 
 <img width="125" height="300" alt="immagine" src="https://github.com/user-attachments/assets/ec6d7270-f478-4d61-aa9b-f026a528b29d" />
 <img width="125" height="300" alt="immagine" src="https://github.com/user-attachments/assets/2f380919-63e9-415c-a3f7-242562ebe4c8" />
 <img width="125" height="300" alt="immagine" src="https://github.com/user-attachments/assets/7aee4d7d-6400-408a-9b79-265fbc32b6ef" />
 
-Connecting it to a PC does not result in a camera device, so I started investigating. Linux reveals that the USB device is actually an ethernet controller (RTL8152) and that it get an IP address through DHCP as soon as it is connected (192.168.10.100).
+Connecting it to a PC does not result in a camera device, so I started investigating. Linux reveals that the USB device is actually an ethernet controller (RTL8152) and that it gets an IP address through DHCP as soon as it is connected (192.168.10.100).
 
 <img width="758" height="168" alt="immagine" src="https://github.com/user-attachments/assets/26cf503a-ad8e-4d6c-9755-4c7960a20034" />
 
