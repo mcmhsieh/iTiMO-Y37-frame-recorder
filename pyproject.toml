@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "itimo-y37-frame-recorder"
+version = "0.0.1"
+description = "Utility to view and record Wifi Dental Camera Oral Endoscope MJPEG video stream frames as a sequence of JPEG images"
+authors = ["Mark Hsieh <304629098+mcmhsieh@users.noreply.github.com>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.26.4"
+opencv-python = "4.10.0.84"
+pillow = "10.3.0"
+exif = "1.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
