@@ -40,6 +40,10 @@ The clarity of the captured images can be improved by removing the clear plastic
 <img src="image/plastic_film_1.jpg" alt="Plastic film covering the lens and LEDs" width="320px"/>
 <img src="image/plastic_film_2.jpg" alt="Plastic film covering the lens and LEDs" width="320px"/>
 
+The device's MJPEG stream comprises 480 x 640 pixel images at a rate of approximately 16.7 FPS. At some point in the future it may be useful to augment recorded data with readings from its internal gyroscope.
+
+The frame recorder utility lowers the LED PWM setting from 100 to 65 to reduce amount of overexposure at close proximity (causing undesirable pixel value saturation and clipping).
+
 ## Usage (Microsoft Windows)
 
 - Clone https://github.com/mcmhsieh/iTiMO-Y37-frame-recorder.git or download a copy of the repository
